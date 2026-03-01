@@ -1,0 +1,9 @@
+cameras:
+  - id: 1
+    name: "Main Entrance"
+    url: "rtsp://admin:password@192.168.1.100:554/stream1"
+    zone: "entrance"
+  - id: 2
+    name: "Playground"
+    url: "rtsp://admin:password@192.168.1.101:554/stream1"
+    zone: "playground"
