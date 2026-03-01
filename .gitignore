@@ -1,0 +1,40 @@
+# --- Python / Backend ---
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/*.egg-info/
+backend/dist/
+backend/build/
+backend/.venv/
+backend/venv/
+backend/env/
+backend/.env
+backend/data/videos/*
+backend/data/frames/*
+backend/data/faces/*
+backend/data/embeddings/*
+backend/*.mp4
+backend/*.avi
+backend/*.mkv
+backend/*.log
+backend/*.txt
+
+# --- Node / Frontend ---
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.DS_Store
+frontend/*.pem
+frontend/.env*
+!frontend/.env.example
+
+# --- Global / OS ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
+venv/
+node_modules/
